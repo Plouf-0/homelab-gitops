@@ -7,3 +7,5 @@ applicationSet:
 configs:
   cm:
     timeout.reconciliation: 600s
+  params:
+       server.insecure: true
