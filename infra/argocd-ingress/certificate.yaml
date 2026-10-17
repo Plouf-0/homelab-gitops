@@ -8,5 +8,5 @@ spec:
   dnsNames:
     - argocd.giaufer.fr
   issuerRef:
-    name: letsencrypt-staging
+    name: letsencrypt-prod
     kind: ClusterIssuer
