@@ -9,8 +9,12 @@ spec:
       kubernetesCRD:
         allowCrossNamespace: true
     service:
-      spec:
-        externalTrafficPolicy: Local
+      type: ClusterIP 
+    ports:
+      web:
+        hostPort: 80
+      websecure:
+        hostPort: 443
     logs:
       access:
         enabled: true
