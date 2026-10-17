@@ -6,6 +6,6 @@ applicationSet:
   enabled: false
 configs:
   cm:
-    timeout.reconciliation: 600s
+    timeout.reconciliation: 300s
   params:
        server.insecure: true
