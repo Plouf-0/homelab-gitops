@@ -6,4 +6,4 @@ applicationSet:
   enabled: false
 configs:
   cm:
-    timeout.reconciliation: 300s
+    timeout.reconciliation: 600s
