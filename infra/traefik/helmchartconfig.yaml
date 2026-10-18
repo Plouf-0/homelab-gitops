@@ -8,6 +8,7 @@ spec:
     providers:
       kubernetesCRD:
         allowCrossNamespace: true
+        safeNaming: true
     service:
       type: ClusterIP 
     ports:
