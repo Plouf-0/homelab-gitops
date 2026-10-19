@@ -23,6 +23,8 @@ spec:
     - match: Host(`test.giaufer.fr`)
       kind: Rule
       middlewares:
+        - name: vpn-only
+          namespace: kube-system
         - name: security-headers
           namespace: kube-system
       services:
